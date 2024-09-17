@@ -32,18 +32,17 @@
             evaluateResult();
            
         }
-        
         else{
-          currentValue += value;
-          console.log('currentValue:', currentValue);
-          display.value=currentValue;
-        }
+            currentValue += value;
+            console.log('currentValue:', currentValue);
+            display.value=currentValue;
+          }
+
 
        
         })
         
       }
-
      
 
       });
